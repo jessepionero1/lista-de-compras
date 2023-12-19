@@ -31,7 +31,7 @@ function salvarItem(){
     const checarDuplicado = listaDeItens.some( (elemento)=> elemento.valor.toUpperCase() === comprasItem.toUpperCase());
 
     if(checarDuplicado){
-        alert("Item já duplicado..!")
+        alert("Item já existe..!")
     } else{listaDeItens.push(
         {
             valor: comprasItem,
